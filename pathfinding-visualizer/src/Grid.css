@@ -1,0 +1,39 @@
+.grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .node {
+    width: 20px;
+    height: 20px;
+    border: 1px solid gray;
+    transition: background-color 0.3s ease;
+  }
+  
+  .node-start {
+    background-color: #007BFF;
+  }
+  
+  .node-end {
+    background-color: #dc3545;
+  }
+  
+  .node-wall {
+    background-color: #212529;
+  }
+  
+  .node-visited {
+    background-color: #17a2b8;
+  }
+  
+  .node-shortest-path {
+    background-color: #28a745;
+  }
+  

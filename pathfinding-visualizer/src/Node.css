@@ -1,0 +1,18 @@
+.node {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .node-start {
+    background-color: #0f0;
+  }
+  
+  .node-end {
+    background-color: #f00;
+  }
+  
+  .node-wall {
+    background-color: #000;
+  }
+  
