@@ -4,7 +4,7 @@ This project is a visualization tool for Dijkstra's Pathfinding Algorithm built 
 
 You can create walls by clicking and dragging across the grid, and then click the "Visualize Dijkstra's Algorithm" button to see the shortest path from the start node to the end node.
 
-![Screenshot](/Users/ibby/Desktop/coding/PathfindingProject/Screenshot 2023-06-07 at 16.14.46.png)
+![Screenshot](<img width="1416" alt="Screenshot 2023-06-07 at 16 14 46" src="https://github.com/ibraheem-latif/Pathfinder/assets/107991387/4af00067-8a4d-403d-bda5-76435cc9e0d8">)
 
 ## Getting Started
 
