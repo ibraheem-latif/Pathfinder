@@ -1,16 +1,9 @@
 import React from 'react';
 import './Node.css';
 
-const Node = ({ isStart, isEnd, row, col, isWall, onMouseDown, onMouseEnter, onMouseUp }) => {
-  let extraClassName = '';
-
-  if (isEnd) {
-    extraClassName = 'node-end';
-  } else if (isStart) {
-    extraClassName = 'node-start';
-  } else if (isWall) {
-    extraClassName = 'node-wall';
-  }
+const Node = (props) => {
+  const { row, col, isStart, isEnd, isWall, onMouseDown, onMouseEnter, onMouseUp } = props;
+  const extraClassName = isEnd ? 'node-end' : isStart ? 'node-start' : isWall ? 'node-wall' : '';
 
   return (
     <div
